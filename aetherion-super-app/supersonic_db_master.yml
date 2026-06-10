@@ -1,0 +1,2 @@
+postgres_node_active: true
+mongo_fabric_routing: enabled

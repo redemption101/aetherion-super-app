@@ -1,0 +1,12 @@
+## Name of the node (change this dynamically when spinning up new Docker containers)
+-sname aetherion_node_1
+
+## The magic cookie for distributed security (Must be identical on all 7 billion user nodes)
+-setcookie supersonic_aetherion_global_cookie
+
+## Enable kernel poll and a few async threads for massive I/O scaling
++K true
++A 30
+
+## Increase number of concurrent ports/sockets
+-env ERL_MAX_PORTS 4096000

@@ -1,0 +1,16 @@
+{application, aetherion_app, [
+    {description, "Aetherion Planetary Router and Hybrid Mesh Engine"},
+    {vsn, "0.1.0"},
+    {registered, [aetherion_sup, aetherion_cluster, aetherion_worker]},
+    {mod, {aetherion_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        inets,
+        crypto,
+        brod
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]}
+]}.

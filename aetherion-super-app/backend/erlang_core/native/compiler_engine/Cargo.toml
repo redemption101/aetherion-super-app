@@ -1,0 +1,13 @@
+[package]
+name = "compiler_engine"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "compiler_engine"
+crate-type = ["cdylib"] # Compiles to a C-dynamic library for Erlang
+
+[dependencies]
+rustler = "0.30.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

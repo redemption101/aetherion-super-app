@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap');
+
+:root {
+  --cyan:    #66fcf1;
+  --teal:    #45a29e;
+  --dark:    #0b0c10;
+  --panel:   #0d1117;
+  --card:    #111827;
+  --border:  rgba(102, 252, 241, 0.18);
+  --glow:    rgba(102, 252, 241, 0.45);
+  --red:     #ff4757;
+  --orange:  #ffa502;
+  --green:   #2ed573;
+  --purple:  #a855f7;
+  --yellow:  #ffd32a;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--dark);
+  color: #c5c6c7;
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--panel); }
+::-webkit-scrollbar-thumb { background: var(--teal); border-radius: 3px; }
+
+/* Reusable glow text */
+.glow-text {
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--glow), 0 0 20px var(--glow);
+}
+
+/* Animated gradient border */
+@keyframes border-spin {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

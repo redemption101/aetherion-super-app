@@ -1,0 +1,177 @@
+{
+  "_id": "aetherion_registry",
+  "type": "design_document",
+  "description": "Aetherion Supersonic Database — Full Member Registry",
+  "created_by": "Mandlenkosi Vundla — Sovereign Architect",
+  "db_password_ref": "Mv@20217$$",
+
+  "main_database": {
+    "description": "Tier 1 — Sovereign Architects. These members hold full system access.",
+    "access_level": "SOVEREIGN",
+    "members": [
+      { "id": 1, "name": "Mandlenkosi Vundla",  "role": "Sovereign Architect & Founder" },
+      { "id": 2, "name": "Theodore Swarts",     "role": "Co-Founder" },
+      { "id": 3, "name": "Sempi Mvala",         "role": "Co-Founder" },
+      { "id": 4, "name": "Mrs Codex",           "role": "Co-Founder" }
+    ]
+  },
+
+  "sub_database": {
+    "description": "Tier 2 — Inner Circle, Family Lineages, Global Institutions & Communities.",
+    "access_level": "MEMBER",
+    "categories": {
+      "Royal_Houses": [
+        "Queen Elizabeth",
+        "The Zulu Royal House",
+        "The England Royal House",
+        "The Apache Tribe and Red Indian Tribes",
+        "Top 100 Royal Houses Globally"
+      ],
+      "Global_Tech_Icons": [
+        "Mark Zuckerberg",
+        "Bill Gates",
+        "Elon Musk",
+        "Google",
+        "Microsoft",
+        "Top 50 Cloud Environments",
+        "Fathers of Technology Globally",
+        "Top 50 IDS Globally"
+      ],
+      "Business_and_Finance": [
+        "Johan Rupert",
+        "Oppenheimer Family",
+        "De Beers",
+        "Cyril Ramaphosa",
+        "Wall Street",
+        "Top 5000 Forbes Richest",
+        "Top 7000 Global Companies",
+        "Top 1000 Banks Globally",
+        "Top 50 Yacht Companies Globally"
+      ],
+      "Industry_Registries": [
+        "Top 10000 Celebrities Globally",
+        "Top 3000 Mining Companies",
+        "Top 7000 Retail and Furniture Shops Globally",
+        "Top 1000 Automobile Companies",
+        "Top 100 Airplane Companies Globally"
+      ],
+      "Vundla_Family_Lineage": [
+        "Peter Vundla",
+        "Mfundi Vundla",
+        "Mhlangabezi Vundla",
+        "Themba Vundla",
+        "Nokuthula Vundla",
+        "Mthandazo Vundla",
+        "Kathleen Baba Vundla",
+        "Joy Vundla and Family",
+        "Vivienne Vundla Mashilo and Family"
+      ],
+      "Moyo_Family_Lineage": [
+        "Ngoni Moyo",
+        "Bernard Moyo",
+        "Moyo Family Lineage"
+      ],
+      "Chigwada_Family_Lineage": [
+        "Tendai Madzipe",
+        "Thomas Chigwada",
+        "Monica Chigwada",
+        "Ceciliah Chigwada",
+        "Rukudzo Chigwada",
+        "Joy Chigwada",
+        "My Spiritual Children Chigwada"
+      ],
+      "Makhubu_Family": [
+        "Thulani Makhubu",
+        "Banele Makhubu",
+        "Bongani Makhubu",
+        "Simphiwe Makhubu",
+        "Zinhle Makhubu",
+        "Zakhele Makhubu",
+        "Makhubu Family"
+      ],
+      "Dladla_Family": [
+        "Lesedi Dladla",
+        "Siphiwe Dladla",
+        "Lindiwe Babalwa Dladla",
+        "Somikazi Dladla",
+        "Zukiswa Dladla",
+        "Mthwakazi Dladla",
+        "Nkuli Dladla",
+        "Dladla Family"
+      ],
+      "Mashilo_Family": [
+        "Mbulelo Wesley Mashilo",
+        "Mashilo Family"
+      ],
+      "Moremi_Family": [
+        "Moremi Family"
+      ],
+      "Inner_Circle": [
+        "Sphesihle Shezi",
+        "Samkelo Shezi",
+        "Lance Mada",
+        "Sdova Nebhandla",
+        "Mjuku",
+        "Sfiso Fistaz Buthelezi Nebhandla",
+        "Veja Slago",
+        "Nonkululeko Mpilo",
+        "Sako Molefe",
+        "Vanesa Legote"
+      ],
+      "Media_and_Entertainment": [
+        "Lehasa",
+        "Masobe",
+        "Sfiso Khuzwayo",
+        "Tita Ndlangisa",
+        "Magauta",
+        "Unathi Mantanga",
+        "Lerato Phakoe",
+        "Jack Nteso"
+      ],
+      "Education_Communities": [
+        "UFS and Friends",
+        "Tyler Levine and Classmates",
+        "Durban Deep Primary School",
+        "Unified Primary",
+        "Marlborton Primary",
+        "Graceworld",
+        "Adelaide Tambo School",
+        "Kutloanong High School",
+        "UFS and All South African Universities",
+        "Technikons and Colleges SA",
+        "Sparrow Rainbow Village",
+        "ALX Africa",
+        "Wits OTT Students"
+      ],
+      "Personal_Circle": [
+        "Corrine McClinton",
+        "Naniki Mthuzula and Family",
+        "Jackie and Family",
+        "Mpho and Family",
+        "Paris London and Family",
+        "Sergio and Family",
+        "John",
+        "Pule",
+        "Ntondo",
+        "Mbali Nyathi",
+        "Echo Gibbons"
+      ],
+      "Professional_Circle": [
+        "UVU Africa Capaciti",
+        "Demand 3 Cohort Members at UVU Africa",
+        "Orabile Mogase",
+        "Sakhile",
+        "Kefiloe",
+        "Nonhlanhla Mndebele",
+        "Tsakane Mohale",
+        "Sherin Kgabo Phihlela",
+        "Dr Mosefane",
+        "Dr Ngubelanga"
+      ],
+      "Politics_and_Movements": [
+        "AZAPO",
+        "ANC"
+      ]
+    }
+  }
+}

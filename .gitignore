@@ -1,0 +1,37 @@
+# Heavy Archives & Downloaded Zips
+*.tgz
+*.tgz.*
+*.tar.gz
+*.zip
+
+# Pre-compiled Infrastructure Binaries
+*kubectl*
+*minikube*
+
+# Encryption Key Pairs & Security Certificates
+privatekey
+publickey
+*.crt
+*.key
+
+# Global Erlang/Rebar3 Compilation Directories
+**/_build/
+**/.rebar3/
+**/*.beam
+**/*.dump
+**/rebar.lock
+**/rebar3.lock
+
+# Python Environments & Runtime Cache Matrices
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/.env
+
+# Local Kafka Extracted Folders
+kafka_2.13-3.7.1/
+
+# Frontend Javascript UI Nodes & Distribution Targets
+**/node_modules/
+**/.angular/
+**/dist/

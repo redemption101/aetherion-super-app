@@ -1,0 +1,5 @@
+-sname aetherion_node_1
+-setcookie supersonic_aetherion_global_cookie
++K true
++A 30
+-env ERL_MAX_PORTS 4096000
